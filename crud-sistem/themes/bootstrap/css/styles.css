@@ -1,0 +1,12 @@
+#page {
+    padding-top: 60px;
+}
+.bottom-create {
+    background: #72aed0;
+    width: 21%;
+    padding: 25px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: #fff;
+}
