@@ -12,7 +12,7 @@ return array(
 
 	// preloading 'log' component
 	'preload'=>array('log'),
-	'theme'=>'bootstrap',
+	
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -37,6 +37,9 @@ return array(
 
 	// application components
 	'components'=>array(
+		'functions'=>array(
+             'class'=>'application.extensions.functions.Functions',
+                ),
 		'bootstrap'=>array(
         'class'=>'bootstrap.components.Bootstrap',
          ),

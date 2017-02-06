@@ -27,9 +27,7 @@ $this->menu=array(
 		'Email',
 		'Fecha_nacimiento',
 	),
-)); ?>
-<?php if(Yii::app()->user->hasFlash("image")){?>
-<div class="flash-success">    
-    <?php echo CHtml::image(Yii::app()->request->baseUrl."".Yii::app()->user->getFlash("image"));?>    
-</div>
-<?php }?>
+)); 
+
+?>
+<img src="<?php echo Yii::app()->baseUrl.'/images/' . $model->image ?>">

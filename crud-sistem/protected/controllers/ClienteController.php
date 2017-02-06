@@ -42,13 +42,13 @@ class ClienteController extends Controller
 			array('deny',  // deny all users
 				'users'=>array('*'),
 			),	
+			array(
+				array('cedula','numerical','integerOnly'=>true)
+				),
+			array(
+				array('email', 'email')
+				)
 		);
-		 return [
-			['imagen', 'image','extensions'=>'jpg, gif, png', 'allowEmpty'=>true, 'on'=>'update'],			
-			['cedula', 'numeral','integerOnly'=>true],
-		 	['email', 'email'],
-
-		 ];
 	}
 
 
@@ -77,7 +77,7 @@ class ClienteController extends Controller
 		if(isset($_POST['Cliente']))
 		{
 			// var_dump($_FILES);
-			$destination = '/xampp/htdocs/test-moogo/crud-sistem/images';
+			$destination = '/Applications/XAMPP/xamppfiles/htdocs/prueas/crud-sistem/images/';
 			
 			if ( move_uploaded_file($_FILES['Cliente']['tmp_name']['image'], $destination.$_FILES['Cliente']['name']['image']) ) {
 			    echo "El fichero es válido y se subió con éxito.\n";
@@ -97,30 +97,7 @@ class ClienteController extends Controller
 			'model'=>$model,
 		));
 	}
-  public function actionImagen()
-        {
-            $model = new ImagenForm();
-             if(isset($_POST['ImagenForm']))
-            {                
-                if(isset($_FILES) and $_FILES['ImagenForm']['error']['foto']==0)
-                 {
-                    $uf = CUploadedFile::getInstance($model, 'foto');
-                    if($uf->getExtensionName() == "jpg" || $uf->getExtensionName() == "png" ||
-                        $uf->getExtensionName() == "jpeg" || $uf->getExtensionName()== "gif")
-                    {
-                          $uf->saveAs(Yii::getPathOfAlias('webroot').'/images/'.$uf->getName());
-                        
-                          Yii::app()->user->setFlash('noerror_imagen',"Imagen: ".$uf->getName()." Subida Correctamente");
-                          Yii::app()->user->setFlash('imagen','/images/'.$uf->getName());
-                          $this->refresh();
-                    }else{
-                        Yii::app()->user->setFlash('error_imagen','Imagen no valida');
-                    }
-                    
-                 }
-            }
-            $this->render('imagen',array('model'=>$model));
-        }
+  
 	/**
 	 * Updates a particular model.
 	 * If update is successful, the browser will be redirected to the 'view' page.

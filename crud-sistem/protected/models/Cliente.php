@@ -102,21 +102,3 @@ class Cliente extends CActiveRecord
 		));
 	}
 }
-class ImagenForm extends CFormModel{
-    public $image;
-    
-    public function rules()
-    {
-        return array(
-           array('image','file','types'=>'jpg, jpeg, png, gif')
-            );
-    }
-    
-    public function attributeLabels()
-	{
-		return array(
-                        'image'=>'image',			
-		);
-	}
-    
-}
