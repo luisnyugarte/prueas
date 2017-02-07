@@ -16,7 +16,7 @@
         ===
     -->
     <meta charset="utf-8">
-    <title>Free HTML5 Bootstrap Admin Template</title>
+    <title>Administrar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
     <meta name="author" content="Muhammad Usman">
@@ -115,18 +115,38 @@
         </div>
     </div>
     <div class="box-content">
-    
-    <table class="table table-striped table-bordered bootstrap-datatable datatable responsive">
-    <thead>
-    <tr>
-        <th>Foto</th>
-        <th>nombre</th>
-        <th>cedula</th>
-        <th>Email</th>
-        <th>Actions</th>
-    </tr>
-    </thead>
-    <tbody>
+         
+         <?php
+            $db= mysqli_connect('localhost','root','');       
+                mysqli_select_db($db,"moogo-test");
+            $tabla = mysqli_query($db, 'SELECT * FROM cliente');?>
+            <table class="table table-striped table-bordered bootstrap-datatable datatable responsive">
+                <tr>
+                    <th>Foto</th>
+                    <th>Nombre</th>
+                    <th>Cedula</th>
+                    <th>Email</th>
+                    <th>fecha de nacimiento</th>
+                    <th>Opciones</th>
+                </tr>
+            
+            <?php        
+            while($obtener_filas=mysqli_fetch_array($tabla)){ ?> 
+                <tr>
+                <td><img width="30" src="<?php echo Yii::app()->baseUrl.'/images/' . $obtener_filas['image'] ?>"></td>     
+                <td> <?php echo $nombre= $obtener_filas['nombre']; ?></td>
+                <td> <?php echo $cedula= $obtener_filas['cedula']; ?></td>
+                <td> <?php echo $Email= $obtener_filas['Email']; ?></td>
+                <td> <?php echo $Fecha_nacimiento= $obtener_filas['Fecha_nacimiento']; ?></td>
+                <td> <?php echo CHtml::link("Eliminar",array("delete","cedula"=>$model->cedula),array("confirm"=>"seguro")); ?></td>
+                </tr>
+            <?php }
+                
+            mysqli_free_result($tabla);
+            mysqli_close($db);
+            ?>
+            </table>  
+   
     <tr>
         <td>David R</td>
         <td class="center">2012/01/01</td>
@@ -149,98 +169,7 @@
             </a>
         </td>
     </tr>
-    <tr>
-        <td>Chris Jack</td>
-        <td class="center">2012/01/01</td>
-        <td class="center">Member</td>
-        <td class="center">
-            <span class="label-success label label-default">Active</span>
-        </td>
-        <td class="center">
-            <a class="btn btn-success" href="#">
-                <i class="glyphicon glyphicon-zoom-in icon-white"></i>
-                View
-            </a>
-            <a class="btn btn-info" href="#">
-                <i class="glyphicon glyphicon-edit icon-white"></i>
-                Edit
-            </a>
-            <a class="btn btn-danger" href="#">
-                <i class="glyphicon glyphicon-trash icon-white"></i>
-                Delete
-            </a>
-        </td>
-    </tr>
-    <tr>
-        <td>Jack Chris</td>
-        <td class="center">2012/01/01</td>
-        <td class="center">Member</td>
-        <td class="center">
-            <span class="label-success label label-default">Active</span>
-        </td>
-        <td class="center">
-            <a class="btn btn-success" href="#">
-                <i class="glyphicon glyphicon-zoom-in icon-white"></i>
-                View
-            </a>
-            <a class="btn btn-info" href="#">
-                <i class="glyphicon glyphicon-edit icon-white"></i>
-                Edit
-            </a>
-            <a class="btn btn-danger" href="#">
-                <i class="glyphicon glyphicon-trash icon-white"></i>
-                Delete
-            </a>
-        </td>
-    </tr>
-    <tr>
-        <td>Muhammad Usman</td>
-        <td class="center">2012/01/01</td>
-        <td class="center">Member</td>
-        <td class="center">
-            <span class="label-success label label-default">Active</span>
-        </td>
-        <td class="center">
-            <a class="btn btn-success" href="#">
-                <i class="glyphicon glyphicon-zoom-in icon-white"></i>
-                View
-            </a>
-            <a class="btn btn-info" href="#">
-                <i class="glyphicon glyphicon-edit icon-white"></i>
-                Edit
-            </a>
-            <a class="btn btn-danger" href="#">
-                <i class="glyphicon glyphicon-trash icon-white"></i>
-                Delete
-            </a>
-        </td>
-    </tr>
-    <tr>
-        <td>Sheikh Heera</td>
-        <td class="center">2012/02/01</td>
-        <td class="center">Staff</td>
-        <td class="center">
-            <span class="label-default label label-danger">Banned</span>
-        </td>
-        <td class="center">
-            <a class="btn btn-success" href="#">
-                <i class="glyphicon glyphicon-zoom-in icon-white"></i>
-                View
-            </a>
-            <a class="btn btn-info" href="#">
-                <i class="glyphicon glyphicon-edit icon-white"></i>
-                Edit
-            </a>
-            <a class="btn btn-danger" href="#">
-                <i class="glyphicon glyphicon-trash icon-white"></i>
-                Delete
-            </a>
-        </td>
-    </tr>
-
-
-    </tbody>
-    </table>
+    
     </div>
     </div>
     </div>
