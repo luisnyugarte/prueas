@@ -77,7 +77,7 @@ class ClienteController extends Controller
 		if(isset($_POST['Cliente']))
 		{
 			// var_dump($_FILES);
-			$destination = '/Applications/XAMPP/xamppfiles/htdocs/prueas/crud-sistem/images/';
+			$destination = '/XAMPP/htdocs/prueas/crud-sistem/images/';
 			
 			if ( move_uploaded_file($_FILES['Cliente']['tmp_name']['image'], $destination.$_FILES['Cliente']['name']['image']) ) {
 			    echo "El fichero es válido y se subió con éxito.\n";

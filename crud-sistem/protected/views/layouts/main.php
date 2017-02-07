@@ -78,7 +78,7 @@
             <!-- theme selector ends -->
 
             <ul class="collapse navbar-collapse nav navbar-nav top-menu">
-                <li><a href="/crud-sistem/index.php?r=site/index"><i class="glyphicon glyphicon-globe"></i>Inicio</a></li>
+                <li><a href="?r=site/index"><i class="glyphicon glyphicon-globe"></i>Inicio</a></li>
                 <li>
                     <form class="navbar-search pull-left">
                         <input placeholder="Search" class="search-query form-control col-md-10" name="query"
@@ -102,7 +102,7 @@
 	<div class="clear"></div>
 
 	<footer>
-        <p class="col-md-9 col-sm-9 col-xs-12 copyright">&copy; <a href="http://usman.it" target="_blank">luisny Ugarte 2017</p>
+        <p class="col-md-9 col-sm-9 col-xs-12 copyright">&copy; <a href="" target="_blank">luisny Ugarte 2017</p>
 
         <p class="col-md-3 col-sm-3 col-xs-12 powered-by">Powered by: <a
                 href="http://usman.it/free-responsive-admin-template">Moogo s.a.s</a></p>

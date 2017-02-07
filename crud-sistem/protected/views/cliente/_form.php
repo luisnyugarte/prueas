@@ -50,20 +50,19 @@
                     </div>
                     <ul class="nav nav-pills nav-stacked main-menu">
                         <li class="nav-header">Main</li>
-                        <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/create/"><i class="glyphicon glyphicon-home"></i><span> Crear</span></a>
+                        
+                        <li><a class="ajax-link" href="?r=site/index"><i class="glyphicon glyphicon-eye-open"></i><span>inicio</span></a>
                         </li>
-                        <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/index"><i class="glyphicon glyphicon-eye-open"></i><span>Lista</span></a>
-                        </li>
-                        <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span> Editar</span></a></li>
-                        <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                         <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                          <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                           <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                            <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                             <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                              <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                               <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                                <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
+                        <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span> Editar</span></a></li>
+                        <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
+                         <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
+                          <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
+                           <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
+                            <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
+                             <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
+                              <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
+                               <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
+                                <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
                         
                     </ul>
                     
