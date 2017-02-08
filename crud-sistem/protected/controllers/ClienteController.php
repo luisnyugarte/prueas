@@ -77,7 +77,7 @@ class ClienteController extends Controller
 		if(isset($_POST['Cliente']))
 		{
 			// var_dump($_FILES);
-			$destination = '/Applications/XAMPP/xamppfiles/htdocs/prueas/crud-sistem/images/';
+			$destination = '/XAMPP/htdocs/prueas/crud-sistem/images/';
 			
 			if ( move_uploaded_file($_FILES['Cliente']['tmp_name']['image'], $destination.$_FILES['Cliente']['name']['image']) ) {
 			    echo "El fichero es válido y se subió con éxito.\n";
@@ -127,11 +127,9 @@ class ClienteController extends Controller
 	 * If deletion is successful, the browser will be redirected to the 'admin' page.
 	 * @param integer $id the ID of the model to be deleted
 	 */
-	public function actionDelete($cedula)
+	public function actionDelete($id)
 	{
-		$model=cliente::model()->deleteBypk($cedula);
-		$this->redirect(array("index"));
-
+		
 		$this->loadModel($id)->delete();
 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser

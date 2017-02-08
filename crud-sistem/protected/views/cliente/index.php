@@ -6,10 +6,6 @@ $this->breadcrumbs=array(
 	'Clientes',
 );
 
-$this->menu=array(
-	array('label'=>'Crear Cliente', 'url'=>array('create')),
-	array('label'=>'Administrar Clientes', 'url'=>array('admin')),
-);
 ?>
 
 <h1>Clientes</h1>
@@ -19,3 +15,10 @@ $this->menu=array(
 	'itemView'=>'_view',
 )); 
 ?>
+<style type="text/css">
+   	.breadcrumbs{
+   	width: 60%;
+    display: block;
+    margin: 0 auto;
+	}
+   </style> 

@@ -114,13 +114,9 @@
             <a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
         </div>
     </div>
-    <div class="box-content">
-         
-         <?php
-            $db= mysqli_connect('localhost','root','');       
-                mysqli_select_db($db,"moogo-test");
-            $tabla = mysqli_query($db, 'SELECT * FROM cliente');?>
-            <table class="table table-striped table-bordered bootstrap-datatable datatable responsive">
+    <div class="box-content"> 
+
+     <table class="table table-striped table-bordered bootstrap-datatable datatable responsive">
                 <tr>
                     <th>Foto</th>
                     <th>Nombre</th>
@@ -130,7 +126,10 @@
                     <th>Opciones</th>
                 </tr>
             
-            <?php        
+         
+         <?php
+            include("conexion.php");
+            $tabla = mysqli_query($db, 'SELECT * FROM cliente');    
             while($obtener_filas=mysqli_fetch_array($tabla)){ ?> 
                 <tr>
                 <td><img width="30" src="<?php echo Yii::app()->baseUrl.'/images/' . $obtener_filas['image'] ?>"></td>     
@@ -138,15 +137,21 @@
                 <td> <?php echo $cedula= $obtener_filas['cedula']; ?></td>
                 <td> <?php echo $Email= $obtener_filas['Email']; ?></td>
                 <td> <?php echo $Fecha_nacimiento= $obtener_filas['Fecha_nacimiento']; ?></td>
-                <td> <?php echo CHtml::link("Eliminar",array("delete","cedula"=>$model->cedula),array("confirm"=>"seguro")); ?></td>
-                </tr>
+                <td> <a href=""><?php echo CHtml::link("Editar",array('update', 'id'=>$obtener_filas['cedula'])); ?></a>
+
+                <a href="delete.php?id=<?php echo $obtener_filas['cedula']; ?>" class="btn btn-danger">Eliminar</a>
+                <a href="#" class="btn btn-success">Ver</a>
+                </td>
+
+               
             <?php }
-                
             mysqli_free_result($tabla);
             mysqli_close($db);
             ?>
             </table>  
-   
+
+
+
     <tr>
         <td>David R</td>
         <td class="center">2012/01/01</td>

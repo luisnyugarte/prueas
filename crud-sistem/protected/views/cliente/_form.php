@@ -3,7 +3,7 @@
 <head>
 
     <meta charset="utf-8">
-    <title>Crear</title>
+    <title>Moogo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The styles -->
     <link id="bs-css" href="css/bootstrap-cerulean.min.css" rel="stylesheet">
@@ -75,14 +75,7 @@
         <div id="content" class="col-lg-10 col-sm-10">
             <!-- content starts -->
             <div>
-    <ul class="breadcrumb">
-        <li>
-            <a href="#">Inicio</a>
-        </li>
-        <li>
-            <a href="#">crear</a>
-        </li>
-    </ul>
+
 </div>
 <div class="box-content">
 	<?php $form=$this->beginWidget('CActiveForm', array(
@@ -93,7 +86,10 @@
 		'validateOnSubmit'=>true,
 	),
 )); ?>
-	<h1>Crear un Cliente</h1>
+    
+<h1>Crear Cliente</h1>
+
+
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
 	<?php echo $form->errorSummary($model); ?>

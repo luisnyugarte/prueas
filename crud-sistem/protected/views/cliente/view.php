@@ -7,7 +7,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Free HTML5 Bootstrap Admin Template</title>
+    <title>Moogo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
     <meta name="author" content="Muhammad Usman">
@@ -61,8 +61,8 @@
                         
                         <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-eye-open"></i><span>Lista</span></a>
                         </li>
-                        <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span> Editar</span></a></li>
-                        <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
+                        <li><i class="glyphicon glyphicon-edit"></i><span> <?php echo CHtml::link("Editar este cliente",array('update', 'id'=>$model->cedula)); ?></span></li>
+                        
                          <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
                           <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
                            <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
