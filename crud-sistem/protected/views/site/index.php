@@ -53,7 +53,7 @@
                         <li><a class="ajax-link" href="?r=cliente/create/"><i class="glyphicon glyphicon-home"></i><span> Crear</span></a>
                         </li>
                         
-                        <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span> Editar</span></a></li>
+                        <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span> Administrar</span></a></li>
                         <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
                          <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
                           <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>

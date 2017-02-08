@@ -33,6 +33,22 @@
 
     <!-- The fav icon -->
     <link rel="shortcut icon" href="img/favicon.ico">
+    <style type="text/css">
+    .control input {
+    border: 1px solid red;
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+    </style>
 
 </head>
 
@@ -53,7 +69,7 @@
                         
                         <li><a class="ajax-link" href="?r=site/index"><i class="glyphicon glyphicon-eye-open"></i><span>inicio</span></a>
                         </li>
-                        <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span> Editar</span></a></li>
+                        <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span> Administrar</span></a></li>
                         <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
                          <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
                           <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
@@ -73,65 +89,61 @@
         <!-- left menu ends -->
 
         <div id="content" class="col-lg-10 col-sm-10">
-            <!-- content starts -->
-            <div>
+      <div class="form">
 
-</div>
-<div class="box-content">
-	<?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'cliente-form',
-	'enableAjaxValidation'=>false,
-	'htmlOptions' => array('enctype' => 'multipart/form-data'),
-	'clientOptions'=>array(
-		'validateOnSubmit'=>true,
-	),
+<?php $form=$this->beginWidget('CActiveForm', array(
+    'id'=>'cliente-form',
+    'enableAjaxValidation'=>false,
+    'htmlOptions' => array('enctype' => 'multipart/form-data'),
 )); ?>
-    
-<h1>Crear Cliente</h1>
 
+    <p class="note">Fields with <span class="required">*</span> are required.</p>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+    <?php echo $form->errorSummary($model); ?>
 
-	<?php echo $form->errorSummary($model); ?>
-	<div class="form">
-	<div class="form-group">
-		
-		<?php echo $form->labelEx($model, 'Foto'); ?>
-		<?php echo $form->fileField($model, 'image'); ?>
-		<?php echo $form->error($model, 'image'); ?>
+    <div class="form-group">
+        
+        <?php echo $form->labelEx($model, 'image'); ?>
+        <?php echo $form->fileField($model, 'image'); ?>
+        <?php echo $form->error($model, 'image'); ?>
 
-	</div>
+    </div>
 
-	<div class="form-group">
-		<?php echo $form->labelEx($model,'nombre'); ?>
-		<input size="50" maxlength="50" name="Cliente[nombre]" id="Cliente_nombre" type="text" class="form-control">
-		<?php echo $form->error($model,'nombre'); ?>
-	</div>
+    <div class="form-group">
+        <?php echo $form->labelEx($model,'nombre'); ?>
+        <div class="control"><?php echo $form->textField($model,'nombre',array('size'=>50,'maxlength'=>50)); ?></div>
+        <?php echo $form->error($model,'nombre'); ?>
+    </div>
 
-	<div class="form-group">
-		<?php echo $form->labelEx($model,'cedula'); ?>
-		<input name="Cliente[cedula]" id="Cliente_cedula" type="text" class="form-control">
-		<?php echo $form->error($model,'cedula'); ?>
-	</div>
+    <div class="form-group">
+        <?php echo $form->labelEx($model,'cedula'); ?>
+        <div class="control"><?php echo $form->textField($model,'cedula');?></div>
+        <?php echo $form->error($model,'cedula'); ?>
+    </div>
 
-	<div class="form-group">
-		<?php echo $form->labelEx($model,'Email'); ?>
-		<input size="60" maxlength="255" name="Cliente[Email]" id="Cliente_Email" type="email" class="form-control" >
-		<?php echo $form->error($model,'Email'); ?>
-	</div>
+    <div class="form-group">
+        <?php echo $form->labelEx($model,'Email'); ?>
+        <div class="control"><?php echo $form->emailField($model,'Email',array('size'=>60,'maxlength'=>255)); ?></div>
+        <?php echo $form->error($model,'Email'); ?>
+    </div>
 
-	<div class="form-group">
-		<?php echo $form->labelEx($model,'Fecha_nacimiento'); ?>
-		<input name="Cliente[Fecha_nacimiento]" id="Cliente_Fecha_nacimiento" type="date" class="form-control">
-		<?php echo $form->error($model,'Fecha_nacimiento'); ?>
-	</div>
+    <div class="form-group">
+        <?php echo $form->labelEx($model,'Fecha_nacimiento'); ?>
+        <div class="control"><?php echo $form->dateField($model,'Fecha_nacimiento'); ?></div>
+        <?php echo $form->error($model,'Fecha_nacimiento'); ?>
+    </div>
 
-	<div class="form-group buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Crear' : 'Guardar'); ?>
-	</div>
+    <div class="form-group buttons">
+        <?php echo CHtml::submitButton($model->isNewRecord ? 'Crear' : 'Guardar'); ?>
+    </div>
 
 <?php $this->endWidget(); ?>
-</div>
+<script type="text/javascript">
+    document.getElementById("Cliente_image").addEventListener('change', function(){
+        console.log(this.files[0]);
+    });
+</script>
+</div><!-- form -->
               
 
             </div>

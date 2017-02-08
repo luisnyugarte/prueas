@@ -1,20 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--
-        ===
-        This comment should NOT be removed.
 
-        Charisma v2.0.0
-
-        Copyright 2012-2014 Muhammad Usman
-        Licensed under the Apache License v2.0
-        http://www.apache.org/licenses/LICENSE-2.0
-
-        http://usman.it
-        http://twitter.com/halalit_usman
-        ===
-    -->
     <meta charset="utf-8">
     <title>Administrar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,6 +36,11 @@
 
     <!-- The fav icon -->
     <link rel="shortcut icon" href="img/favicon.ico">
+    <style type="text/css">
+        .color a {
+            color: #fff;
+        }
+    </style>
 
 </head>
 
@@ -71,7 +63,8 @@
                         
                         <li><a class="ajax-link" href="?r=cliente/create"><i class="glyphicon glyphicon-eye-open"></i><span>crear</span></a>
                         </li>
-                        <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span> Editar</span></a></li>
+                         <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
+                          <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
                         <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
                          <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
                           <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
@@ -115,8 +108,7 @@
         </div>
     </div>
     <div class="box-content"> 
-
-     <table class="table table-striped table-bordered bootstrap-datatable datatable responsive">
+             <table class="table table-striped table-bordered bootstrap-datatable datatable responsive">
                 <tr>
                     <th>Foto</th>
                     <th>Nombre</th>
@@ -132,15 +124,16 @@
             $tabla = mysqli_query($db, 'SELECT * FROM cliente');    
             while($obtener_filas=mysqli_fetch_array($tabla)){ ?> 
                 <tr>
-                <td><img width="30" src="<?php echo Yii::app()->baseUrl.'/images/' . $obtener_filas['image'] ?>"></td>     
+                <td><img width="30" src="<?php echo Yii::app()->baseUrl.'/imagenes/' . $obtener_filas['image'] ?>"></td>     
                 <td> <?php echo $nombre= $obtener_filas['nombre']; ?></td>
-                <td> <?php echo $cedula= $obtener_filas['cedula']; ?></td>
+                <td> <?php echo CHtml::link($obtener_filas['cedula'], array('view', 'id'=>$obtener_filas['cedula'])); ?></td>
                 <td> <?php echo $Email= $obtener_filas['Email']; ?></td>
                 <td> <?php echo $Fecha_nacimiento= $obtener_filas['Fecha_nacimiento']; ?></td>
-                <td> <a href=""><?php echo CHtml::link("Editar",array('update', 'id'=>$obtener_filas['cedula'])); ?></a>
+                <td> 
+                <p class="btn btn-info color"><?php echo CHtml::link("Editar",array('update', 'id'=>$obtener_filas['cedula'])); ?></p> 
 
-                <a href="delete.php?id=<?php echo $obtener_filas['cedula']; ?>" class="btn btn-danger">Eliminar</a>
-                <a href="#" class="btn btn-success">Ver</a>
+                <p class="btn btn-danger color"><?php echo CHtml::link("Delete",array('delete', 'id'=>$obtener_filas['cedula'])); ?></p>
+                <p class="btn btn-success color"><?php echo CHtml::link("Ver", array('view', 'id'=>$obtener_filas['cedula'])); ?></p>
                 </td>
 
                
@@ -148,32 +141,7 @@
             mysqli_free_result($tabla);
             mysqli_close($db);
             ?>
-            </table>  
-
-
-
-    <tr>
-        <td>David R</td>
-        <td class="center">2012/01/01</td>
-        <td class="center">Member</td>
-        <td class="center">
-            <span class="label-success label label-default">Active</span>
-        </td>
-        <td class="center">
-            <a class="btn btn-success" href="#">
-                <i class="glyphicon glyphicon-zoom-in icon-white"></i>
-                View
-            </a>
-            <a class="btn btn-info" href="#">
-                <i class="glyphicon glyphicon-edit icon-white"></i>
-                Edit
-            </a>
-            <a class="btn btn-danger" href="#">
-                <i class="glyphicon glyphicon-trash icon-white"></i>
-                Delete
-            </a>
-        </td>
-    </tr>
+            </table>   
     
     </div>
     </div>

@@ -77,7 +77,7 @@ class ClienteController extends Controller
 		if(isset($_POST['Cliente']))
 		{
 			// var_dump($_FILES);
-			$destination = '/XAMPP/htdocs/prueas/crud-sistem/images/';
+			$destination = '/imagenes/';
 			
 			if ( move_uploaded_file($_FILES['Cliente']['tmp_name']['image'], $destination.$_FILES['Cliente']['name']['image']) ) {
 			    echo "El fichero es válido y se subió con éxito.\n";
@@ -92,6 +92,7 @@ class ClienteController extends Controller
 				 $model->image->saveAs($destination);
 				$this->redirect(array('view','id'=>$model->cedula));
 		}
+		
 
 		$this->render('create',array(
 			'model'=>$model,

@@ -5336,3 +5336,1061 @@ REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/admin
 in C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\admin.php (134)
 in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (163)
 in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 17:25:25 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\update.php:94)
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(95): ClienteController->renderInternal()
+#1 C:\xampp\htdocs\prueas\framework\web\CController.php(869): ClienteController->renderFile()
+#2 C:\xampp\htdocs\prueas\framework\web\CController.php(782): ClienteController->renderPartial()
+#3 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(122): ClienteController->render()
+#4 unknown(0): ClienteController->actionUpdate()
+#5 C:\xampp\htdocs\prueas\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#6 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): ClienteController->runAction()
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#11 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): ClienteController->filterAccessControl()
+#12 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\prueas\framework\web\CController.php(265): ClienteController->runActionWithFilters()
+#15 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): ClienteController->run()
+#16 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CWebApplication->run()
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/update&id=4578322
+in C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\update.php (94)
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (122)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 17:28:43 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\update.php:94)
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(95): ClienteController->renderInternal()
+#1 C:\xampp\htdocs\prueas\framework\web\CController.php(869): ClienteController->renderFile()
+#2 C:\xampp\htdocs\prueas\framework\web\CController.php(782): ClienteController->renderPartial()
+#3 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(122): ClienteController->render()
+#4 unknown(0): ClienteController->actionUpdate()
+#5 C:\xampp\htdocs\prueas\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#6 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): ClienteController->runAction()
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#11 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): ClienteController->filterAccessControl()
+#12 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\prueas\framework\web\CController.php(265): ClienteController->runActionWithFilters()
+#15 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): ClienteController->run()
+#16 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CWebApplication->run()
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/update&id=4578322
+in C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\update.php (94)
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (122)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 17:40:11 [error] [php] mysqli::query(): Empty query (C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\update.php:94)
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(95): ClienteController->renderInternal()
+#1 C:\xampp\htdocs\prueas\framework\web\CController.php(869): ClienteController->renderFile()
+#2 C:\xampp\htdocs\prueas\framework\web\CController.php(782): ClienteController->renderPartial()
+#3 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(122): ClienteController->render()
+#4 unknown(0): ClienteController->actionUpdate()
+#5 C:\xampp\htdocs\prueas\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#6 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): ClienteController->runAction()
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#11 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): ClienteController->filterAccessControl()
+#12 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\prueas\framework\web\CController.php(265): ClienteController->runActionWithFilters()
+#15 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): ClienteController->run()
+#16 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CWebApplication->run()
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/update&id=4578322
+in C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\update.php (94)
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (122)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 17:45:41 [error] [php] Undefined variable: obtener_filas (C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\admin.php:136)
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\CController.php(869): ClienteController->renderFile()
+#1 C:\xampp\htdocs\prueas\framework\web\CController.php(782): ClienteController->renderPartial()
+#2 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(163): ClienteController->render()
+#3 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(49): ClienteController->actionAdmin()
+#4 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): ClienteController->runAction()
+#6 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): ClienteController->filterAccessControl()
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\prueas\framework\web\CController.php(265): ClienteController->runActionWithFilters()
+#12 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): ClienteController->run()
+#13 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CWebApplication->run()
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/admin
+in C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\admin.php (136)
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (163)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 17:45:44 [error] [php] Undefined variable: obtener_filas (C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\admin.php:136)
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\CController.php(869): ClienteController->renderFile()
+#1 C:\xampp\htdocs\prueas\framework\web\CController.php(782): ClienteController->renderPartial()
+#2 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(163): ClienteController->render()
+#3 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(49): ClienteController->actionAdmin()
+#4 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): ClienteController->runAction()
+#6 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): ClienteController->filterAccessControl()
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\prueas\framework\web\CController.php(265): ClienteController->runActionWithFilters()
+#12 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): ClienteController->run()
+#13 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CWebApplication->run()
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/admin
+in C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\admin.php (136)
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (163)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 17:46:12 [error] [php] Undefined variable: tabla (C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\admin.php:149)
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\CController.php(869): ClienteController->renderFile()
+#1 C:\xampp\htdocs\prueas\framework\web\CController.php(782): ClienteController->renderPartial()
+#2 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(163): ClienteController->render()
+#3 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(49): ClienteController->actionAdmin()
+#4 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): ClienteController->runAction()
+#6 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): ClienteController->filterAccessControl()
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\prueas\framework\web\CController.php(265): ClienteController->runActionWithFilters()
+#12 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): ClienteController->run()
+#13 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CWebApplication->run()
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/admin
+in C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\admin.php (149)
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (163)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 17:46:25 [error] [php] mysqli_free_result() expects parameter 1 to be mysqli_result, string given (C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\admin.php:149)
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(95): ClienteController->renderInternal()
+#1 C:\xampp\htdocs\prueas\framework\web\CController.php(869): ClienteController->renderFile()
+#2 C:\xampp\htdocs\prueas\framework\web\CController.php(782): ClienteController->renderPartial()
+#3 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(163): ClienteController->render()
+#4 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(49): ClienteController->actionAdmin()
+#5 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): ClienteController->runAction()
+#7 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): ClienteController->filterAccessControl()
+#10 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\prueas\framework\web\CController.php(265): ClienteController->runActionWithFilters()
+#13 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): ClienteController->run()
+#14 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CWebApplication->run()
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/admin
+in C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\admin.php (149)
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (163)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 17:53:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "update.php?id=4578322".' in C:\xampp\htdocs\prueas\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('update.php?id=4...')
+#1 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=update.php?id=4578322
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 17:54:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "update".' in C:\xampp\htdocs\prueas\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('update')
+#1 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=update&id=4578322
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 18:17:24 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\update.php:94)
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(95): ClienteController->renderInternal()
+#1 C:\xampp\htdocs\prueas\framework\web\CController.php(869): ClienteController->renderFile()
+#2 C:\xampp\htdocs\prueas\framework\web\CController.php(782): ClienteController->renderPartial()
+#3 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(122): ClienteController->render()
+#4 unknown(0): ClienteController->actionUpdate()
+#5 C:\xampp\htdocs\prueas\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#6 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): ClienteController->runAction()
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#11 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): ClienteController->filterAccessControl()
+#12 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\prueas\framework\web\CController.php(265): ClienteController->runActionWithFilters()
+#15 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): ClienteController->run()
+#16 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CWebApplication->run()
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/update&id=4578322
+in C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\update.php (94)
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (122)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 18:25:14 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\update.php:94)
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(95): ClienteController->renderInternal()
+#1 C:\xampp\htdocs\prueas\framework\web\CController.php(869): ClienteController->renderFile()
+#2 C:\xampp\htdocs\prueas\framework\web\CController.php(782): ClienteController->renderPartial()
+#3 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(122): ClienteController->render()
+#4 unknown(0): ClienteController->actionUpdate()
+#5 C:\xampp\htdocs\prueas\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#6 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): ClienteController->runAction()
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#11 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): ClienteController->filterAccessControl()
+#12 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\prueas\framework\web\CController.php(265): ClienteController->runActionWithFilters()
+#15 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): ClienteController->run()
+#16 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CWebApplication->run()
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/update&id=12345677
+in C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\update.php (94)
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (122)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 18:36:53 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=12345677
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 18:45:14 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&0=
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 18:53:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=12345677
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 18:54:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=12345677
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 18:57:48 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=12345677
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 18:59:16 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=76544389
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 19:03:58 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=54765870
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 19:05:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=54765870
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 21:08:38 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('Delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/Delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/Delete&id=65477342
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 21:11:41 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('Delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/Delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/Delete&id=65477342
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 21:12:16 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('Delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/Delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/Delete&id=76544389
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 21:12:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=76544389
+---
+2017/02/08 21:18:02 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=65477342
+---
+2017/02/08 21:19:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('Delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/Delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/Delete&id=76544389
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 21:36:02 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('Delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/Delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/Delete&id=54765879
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 21:36:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=54765879
+---
+2017/02/08 21:40:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('Delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/Delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/Delete&id=54765879
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 21:43:47 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=54765879
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 21:44:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete
+---
+2017/02/08 21:44:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=54765879
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 22:05:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=89878908
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 22:06:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=89878908
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 22:06:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=89878908
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 22:06:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=89878908
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 22:44:15 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\prueas\framework\web\CController.php:1118
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/delete')
+#10 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/delete&id=94677843
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/admin
+---
+2017/02/08 22:53:13 [warning] [application] Failed to set unsafe attribute "image" of "Cliente".
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (115)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 22:53:25 [warning] [application] Failed to set unsafe attribute "image" of "Cliente".
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (115)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 22:59:30 [warning] [application] Failed to set unsafe attribute "image" of "Cliente".
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (89)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 22:59:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php:177
+Stack trace:
+#0 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(63): ClienteController->loadModel('souumero')
+#1 [internal function]: ClienteController->actionView('souumero')
+#2 C:\xampp\htdocs\prueas\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ClienteController), Array)
+#3 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClienteController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/view')
+#14 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/view&id=souumero
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/create
+---
+2017/02/08 23:03:50 [error] [php] Undefined variable: cedula (C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\_form.php:122)
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\CController.php(869): ClienteController->renderFile()
+#1 C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\create.php(2): ClienteController->renderPartial()
+#2 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(95): ClienteController->renderInternal()
+#4 C:\xampp\htdocs\prueas\framework\web\CController.php(869): ClienteController->renderFile()
+#5 C:\xampp\htdocs\prueas\framework\web\CController.php(782): ClienteController->renderPartial()
+#6 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(98): ClienteController->render()
+#7 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(49): ClienteController->actionCreate()
+#8 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): ClienteController->runAction()
+#10 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): ClienteController->filterAccessControl()
+#13 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\prueas\framework\web\CController.php(265): ClienteController->runActionWithFilters()
+#16 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): ClienteController->run()
+#17 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CWebApplication->run()
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/create/
+in C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\_form.php (122)
+in C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\create.php (2)
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (98)
+2017/02/08 23:04:19 [error] [php] ctype_digit() expects exactly 1 parameter, 2 given (C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\_form.php:122)
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(95): ClienteController->renderInternal()
+#1 C:\xampp\htdocs\prueas\framework\web\CController.php(869): ClienteController->renderFile()
+#2 C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\create.php(2): ClienteController->renderPartial()
+#3 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(95): ClienteController->renderInternal()
+#5 C:\xampp\htdocs\prueas\framework\web\CController.php(869): ClienteController->renderFile()
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(782): ClienteController->renderPartial()
+#7 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(98): ClienteController->render()
+#8 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(49): ClienteController->actionCreate()
+#9 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): ClienteController->runAction()
+#11 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): ClienteController->filterAccessControl()
+#14 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\prueas\framework\web\CController.php(265): ClienteController->runActionWithFilters()
+#17 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): ClienteController->run()
+#18 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CWebApplication->run()
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/create/
+in C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\_form.php (122)
+in C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\create.php (2)
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (98)
+2017/02/08 23:05:08 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "numericalField".' in C:\xampp\htdocs\prueas\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\_form.php(120): CComponent->__call('numericalField', Array)
+#1 C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\_form.php(120): CActiveForm->numericalField(Object(Cliente), 'cedula')
+#2 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\prueas\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\create.php(2): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\prueas\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\prueas\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(98): CController->render('create', Array)
+#11 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(49): ClienteController->actionCreate()
+#12 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/create/')
+#22 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/create/
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php
+---
+2017/02/08 23:21:12 [warning] [application] Failed to set unsafe attribute "image" of "Cliente".
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (89)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 23:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php:177
+Stack trace:
+#0 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(63): ClienteController->loadModel('hdhefcwehcvwhsv...')
+#1 [internal function]: ClienteController->actionView('hdhefcwehcvwhsv...')
+#2 C:\xampp\htdocs\prueas\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ClienteController), Array)
+#3 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClienteController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/view')
+#14 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/view&id=hdhefcwehcvwhsvj+cwhjdv+
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/create/
+---
+2017/02/08 23:29:26 [warning] [application] Failed to set unsafe attribute "image" of "Cliente".
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (89)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 23:29:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php:177
+Stack trace:
+#0 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(63): ClienteController->loadModel('jajajajaj')
+#1 [internal function]: ClienteController->actionView('jajajajaj')
+#2 C:\xampp\htdocs\prueas\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ClienteController), Array)
+#3 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClienteController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/view')
+#14 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/view&id=jajajajaj
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/create/
+---
+2017/02/08 23:36:10 [warning] [application] Failed to set unsafe attribute "image" of "Cliente".
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (89)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 23:36:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php:177
+Stack trace:
+#0 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(63): ClienteController->loadModel('jajajajtt')
+#1 [internal function]: ClienteController->actionView('jajajajtt')
+#2 C:\xampp\htdocs\prueas\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ClienteController), Array)
+#3 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClienteController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/view')
+#14 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/view&id=jajajajtt
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/create/
+---
+2017/02/08 23:36:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php:177
+Stack trace:
+#0 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(63): ClienteController->loadModel('jajajajtt')
+#1 [internal function]: ClienteController->actionView('jajajajtt')
+#2 C:\xampp\htdocs\prueas\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ClienteController), Array)
+#3 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClienteController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/view')
+#14 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/view&id=jajajajtt
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/create/
+---
+2017/02/08 23:36:42 [warning] [application] Failed to set unsafe attribute "image" of "Cliente".
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (89)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 23:36:56 [warning] [application] Failed to set unsafe attribute "image" of "Cliente".
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (89)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 23:36:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php:177
+Stack trace:
+#0 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(63): ClienteController->loadModel('12467898')
+#1 [internal function]: ClienteController->actionView('12467898')
+#2 C:\xampp\htdocs\prueas\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ClienteController), Array)
+#3 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClienteController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/view')
+#14 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/view&id=12467898
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/create/
+---
+2017/02/08 23:37:53 [warning] [application] Failed to set unsafe attribute "image" of "Cliente".
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (89)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 23:38:06 [warning] [application] Failed to set unsafe attribute "image" of "Cliente".
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (89)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 23:38:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php:177
+Stack trace:
+#0 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(63): ClienteController->loadModel('ttttttttttttttt...')
+#1 [internal function]: ClienteController->actionView('ttttttttttttttt...')
+#2 C:\xampp\htdocs\prueas\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ClienteController), Array)
+#3 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClienteController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/view')
+#14 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/view&id=ttttttttttttttttttttt
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/create/
+---
+2017/02/08 23:41:49 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "create".' in C:\xampp\htdocs\prueas\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\_form.php(121): CComponent->__call('create', Array)
+#1 C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\_form.php(121): CActiveForm->create(Object(Cliente), 'cedula')
+#2 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\prueas\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\create.php(2): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\prueas\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\prueas\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(98): CController->render('create', Array)
+#11 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(49): ClienteController->actionCreate()
+#12 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/create/')
+#22 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/create/
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=site/index
+---
+2017/02/08 23:42:47 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "create".' in C:\xampp\htdocs\prueas\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\_form.php(121): CComponent->__call('create', Array)
+#1 C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\_form.php(121): CActiveForm->create(Object(Cliente), 'cedula')
+#2 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\prueas\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\prueas\crud-sistem\protected\views\cliente\create.php(2): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\prueas\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\prueas\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\prueas\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(98): CController->render('create', Array)
+#11 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(49): ClienteController->actionCreate()
+#12 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/create/')
+#22 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/create/
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=site/index
+---
+2017/02/08 23:43:17 [warning] [application] Failed to set unsafe attribute "image" of "Cliente".
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (89)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 23:43:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php:177
+Stack trace:
+#0 C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php(63): ClienteController->loadModel('ururyyryr')
+#1 [internal function]: ClienteController->actionView('ururyyryr')
+#2 C:\xampp\htdocs\prueas\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ClienteController), Array)
+#3 C:\xampp\htdocs\prueas\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClienteController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\prueas\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\prueas\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController('cliente/view')
+#14 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/view&id=ururyyryr
+HTTP_REFERER=http://localhost/prueas/crud-sistem/index.php?r=cliente/create/
+---
+2017/02/08 23:45:13 [warning] [application] Failed to set unsafe attribute "image" of "Cliente".
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (115)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 23:53:16 [warning] [application] Failed to set unsafe attribute "image" of "Cliente".
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (115)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 23:56:44 [error] [php] Undefined variable: id (C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php:95)
+Stack trace:
+#0 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(133): ClienteController->runAction()
+#1 C:\xampp\htdocs\prueas\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\prueas\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\prueas\framework\web\filters\CInlineFilter.php(58): ClienteController->filterAccessControl()
+#4 C:\xampp\htdocs\prueas\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\prueas\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\prueas\framework\web\CController.php(265): ClienteController->runActionWithFilters()
+#7 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(282): ClienteController->run()
+#8 C:\xampp\htdocs\prueas\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\prueas\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\prueas\crud-sistem\index.php(13): CWebApplication->run()
+REQUEST_URI=/prueas/crud-sistem/index.php?r=cliente/create/
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (95)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 23:57:06 [warning] [application] Failed to set unsafe attribute "image" of "Cliente".
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (116)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)
+2017/02/08 23:57:11 [warning] [application] Failed to set unsafe attribute "image" of "Cliente".
+in C:\xampp\htdocs\prueas\crud-sistem\protected\controllers\ClienteController.php (116)
+in C:\xampp\htdocs\prueas\crud-sistem\index.php (13)

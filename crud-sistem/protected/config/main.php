@@ -67,8 +67,8 @@ return array(
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=moogo-test',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '',
+			'username' => 'luisny',
+			'password' => '24755328',
 			'charset' => 'utf8',
 		),
 		

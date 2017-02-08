@@ -8,7 +8,7 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h2>No ha registrado ningun cliente</h2>
+<h2>Error </h2>
 
 <div class="error">
 <?php echo CHtml::encode($message); ?>
