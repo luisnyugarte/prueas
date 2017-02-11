@@ -1,3 +1,3 @@
 <?php
-            $db = new mysqli('localhost','root','', 'moogo-test');
+            $db = new mysqli('localhost','luisny','24755328', 'moogo-test');
 ?>

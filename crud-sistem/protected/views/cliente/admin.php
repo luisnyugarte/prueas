@@ -63,18 +63,7 @@
                         
                         <li><a class="ajax-link" href="?r=cliente/create"><i class="glyphicon glyphicon-eye-open"></i><span>crear</span></a>
                         </li>
-                         <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                          <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                        <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                         <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                          <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                           <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                            <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                             <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                              <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                               <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                                <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                        
+                         
                     </ul>
                 </div>
             </div>
@@ -124,7 +113,7 @@
             $tabla = mysqli_query($db, 'SELECT * FROM cliente');    
             while($obtener_filas=mysqli_fetch_array($tabla)){ ?> 
                 <tr>
-                <td><img width="30" src="<?php echo Yii::app()->baseUrl.'/imagenes/' . $obtener_filas['image'] ?>"></td>     
+                <td><img width="30" src="<?php echo Yii::app()->baseUrl. '/images/' .$obtener_filas['image'] ?>"></td>     
                 <td> <?php echo $nombre= $obtener_filas['nombre']; ?></td>
                 <td> <?php echo CHtml::link($obtener_filas['cedula'], array('view', 'id'=>$obtener_filas['cedula'])); ?></td>
                 <td> <?php echo $Email= $obtener_filas['Email']; ?></td>

@@ -1,7 +1,4 @@
-<?php
-/* @var $this ClienteController */
-/* @var $model Cliente */
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -63,15 +60,7 @@
                         </li>
                         <li><i class="glyphicon glyphicon-edit"></i><span> <?php echo CHtml::link("Editar este cliente",array('update', 'id'=>$model->cedula)); ?></span></li>
                         
-                         <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                          <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                           <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                            <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                             <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                              <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                               <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                                <li><a class="ajax-link" href="/crud-sistem/index.php?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                        
+                      
                     </ul>
                     
                 </div>
@@ -110,15 +99,7 @@
                 </div>
             </div>
             <div class="box-content">
-            <?php $this->menu=array(
-    array('label'=>'List Cliente', 'url'=>array('index')),
-    array('label'=>'Create Cliente', 'url'=>array('create')),
-    array('label'=>'Update Cliente', 'url'=>array('update', 'id'=>$model->cedula)),
-    array('label'=>'Delete Cliente', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->cedula),'confirm'=>'Are you sure you want to delete this item?')),
-    array('label'=>'Manage Cliente', 'url'=>array('admin')),
-);
-?>
-?>
+           
                 <table class="table table-bordered table-striped">
                    
                     <tbody>
@@ -131,7 +112,7 @@
 									
 								),
 							)); ?>
-							 <img width="100" src="<?php echo Yii::app()->baseUrl.'/imagenes/' . $model->image ?>" style="margin: 0 auto; display: block;">
+							 <img width="100" src="<?php echo Yii::app()->baseUrl.'/images/' . $model->image ?>" style="margin: 0 auto; display: block;">
                         </td>
                      
                     </tr>

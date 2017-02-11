@@ -70,15 +70,7 @@
                         <li><a class="ajax-link" href="?r=site/index"><i class="glyphicon glyphicon-eye-open"></i><span>inicio</span></a>
                         </li>
                         <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span> Administrar</span></a></li>
-                        <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                         <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                          <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                           <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                            <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                             <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                              <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                               <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
-                                <li><a class="ajax-link" href="?r=cliente/admin"><i class="glyphicon glyphicon-edit"></i><span>Lorem Ipsum</span></a></li>
+                        
                         
                     </ul>
                     
@@ -100,12 +92,18 @@
     <p class="note">Fields with <span class="required">*</span> are required.</p>
 
     <?php echo $form->errorSummary($model); ?>
+   
 
     <div class="form-group">
         
         <?php echo $form->labelEx($model, 'image'); ?>
         <?php echo $form->fileField($model, 'image'); ?>
         <?php echo $form->error($model, 'image'); ?>
+           <?php if(!$model->isNewRecord){?>
+                  <div>
+                    <img class="profile-user-img img-responsive img-circle" style="width: 80px;" src="<?php echo Yii::app()->baseUrl.'/images/'.$model->image ?>" >
+                  </div>
+                <?php }?>
 
     </div>
 
@@ -138,11 +136,7 @@
     </div>
 
 <?php $this->endWidget(); ?>
-<script type="text/javascript">
-    document.getElementById("Cliente_image").addEventListener('change', function(){
-        console.log(this.files[0]);
-    });
-</script>
+
 </div><!-- form -->
               
 
